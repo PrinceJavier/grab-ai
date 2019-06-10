@@ -1,0 +1,9 @@
+model,valid_acc,params
+linear_svc_l2,0.6448473536861752,"{'C': 0.75, 'loss': 'hinge', 'penalty': 'l2'}"
+linear_svc_l1,0.6413811491801094,"{'C': 0.1, 'dual': False, 'penalty': 'l1'}"
+gbm,0.6412478336221837,"{'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 500}"
+svc,0.6411145180642581,{'C': 0.75}
+log_reg,0.6400479936008532,"{'C': 1.0, 'penalty': 'l1'}"
+random_forest,0.6297826956405812,"{'max_depth': 4, 'min_samples_split': 2}"
+decision_tree,0.6201839754699373,"{'max_depth': 3, 'min_samples_split': 2}"
+naive_bayes,0.5561925076656445,{'var_smoothing': 1e-09}
