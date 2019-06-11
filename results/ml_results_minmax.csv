@@ -1,9 +1,9 @@
 model,valid_acc,params
-svc,0.6451139848020264,{'C': 1000}
-linear_svc_l2,0.642847620317291,"{'C': 10, 'loss': 'hinge', 'penalty': 'l2'}"
-gbm,0.6407145713904813,"{'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 500}"
-linear_svc_l1,0.6405812558325557,"{'C': 10, 'dual': False, 'penalty': 'l1'}"
-log_reg,0.639114784695374,"{'C': 100, 'penalty': 'l1'}"
-random_forest,0.6289828022930276,"{'max_depth': 5, 'min_samples_split': 3}"
-decision_tree,0.6205839221437142,"{'max_depth': 3, 'min_samples_split': 3}"
-naive_bayes,0.5565924543394214,{'var_smoothing': 1e-05}
+svc,0.6334177749630567,{'C': 1000}
+gbm,0.6312011821828162,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 500}"
+linear_svc_l2,0.6270846527337978,"{'C': 1.0, 'loss': 'hinge', 'penalty': 'l2'}"
+log_reg,0.6240236436563226,"{'C': 0.5, 'penalty': 'l2'}"
+linear_svc_l1,0.6237069875448596,"{'C': 100, 'dual': False, 'penalty': 'l1'}"
+rf,0.6207515305045387,"{'max_depth': 4, 'min_samples_split': 3}"
+dt,0.6027021321511505,"{'max_depth': 2, 'min_samples_split': 2}"
+nb,0.55256491450285,{'var_smoothing': 1e-05}
