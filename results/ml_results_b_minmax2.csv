@@ -1,0 +1,4 @@
+features,model,params,valid_acc
+"['trip_len', 'Bearing_std', 'acceleration_z_std', 'Speed_skew', 'Speed_ptp', 'gyro_y_ptp', 'gyro_y_amax', 'Accuracy_amax', 'gyro_x_ptp', 'gyro_x_mean', 'Speed_kurtosis']",gbm_b,"{'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 500}",0.6359510238547604
+"['trip_len', 'Bearing_std', 'acceleration_z_std', 'Speed_skew', 'Speed_ptp', 'gyro_y_ptp', 'gyro_y_amax', 'acceleration_z_ptp', 'Speed_amax', 'acceleration_y_std', 'Bearing_ptp', 'gyro_y_std', 'gyro_x_mean', 'acceleration_z_skew', 'acceleration_x_kurtosis', 'Accuracy_amin']",svc_b,{'C': 100},0.6323622545915136
+"['trip_len', 'Bearing_std', 'acceleration_z_std', 'Speed_skew', 'Speed_mean', 'Speed_ptp', 'gyro_z_std', 'gyro_y_kurtosis', 'Accuracy_mean', 'gyro_y_mean', 'gyro_z_amin', 'Bearing_kurtosis', 'acceleration_y_skew', 'gyro_z_ptp', 'acceleration_x_skew', 'Accuracy_amin']",linear_svc_l2_b,"{'C': 0.5, 'loss': 'hinge', 'penalty': 'l2'}",0.6260291323622545
