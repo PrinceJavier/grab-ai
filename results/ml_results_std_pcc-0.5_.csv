@@ -1,9 +1,9 @@
 model,valid_acc,params
-gbm,0.6307789740341989,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 500}"
-linear_svc_l1,0.629512349588347,"{'C': 0.75, 'dual': False, 'penalty': 'l1'}"
-log_reg,0.6289845894025755,"{'C': 0.1, 'penalty': 'l2'}"
-linear_svc_l2,0.6284568292168039,"{'C': 0.01, 'loss': 'hinge', 'penalty': 'l2'}"
-svc,0.6266624445851805,{'C': 1.0}
-rf,0.6200126662444585,"{'max_depth': 3, 'min_samples_split': 4}"
-dt,0.6027021321511505,"{'max_depth': 2, 'min_samples_split': 2}"
-nb,0.5483428330166772,{'var_smoothing': 1e-09}
+svc,0.6351379818832947,{'C': 0.75}
+gbm,0.6339793553823467,"{'learning_rate': 0.05, 'max_depth': 2, 'n_estimators': 500}"
+linear_svc_l2,0.63261006951759,"{'C': 0.1, 'loss': 'hinge', 'penalty': 'l2'}"
+linear_svc_l1,0.6295555087423635,"{'C': 0.01, 'dual': False, 'penalty': 'l1'}"
+log_reg,0.6286075416052244,"{'C': 0.1, 'penalty': 'l1'}"
+rf,0.6280808931957026,"{'max_depth': 5, 'min_samples_split': 4}"
+dt,0.616810617231936,"{'max_depth': 2, 'min_samples_split': 2}"
+nb,0.5543501158626502,{'var_smoothing': 1e-09}

@@ -1,2 +1,10 @@
-model,valid_acc,params
-nn_30_epochs,0.6185349377242981,"{'activation': 'relu', 'batch_size': 5, 'dropout': 0.5, 'epochs': 30, 'input_dim': 82, 'optimizer': 'adam'}"
+model,params,valid_acc
+svc,['C'],0.6364019380661471
+gbm,"['learning_rate', 'max_depth', 'n_estimators']",0.6336633663366337
+linear_svc_l2,"['C', 'loss', 'penalty']",0.6309247946071203
+linear_svc_l1,"['C', 'dual', 'penalty']",0.6290288603328418
+log_reg,"['C', 'penalty']",0.6286075416052244
+rf,"['max_depth', 'min_samples_split']",0.6275542447861807
+nn_30_epochs,"{'activation': 'relu', 'batch_size': 5, 'dropout': 0.5, 'epochs': 30, 'input_dim': 82, 'optimizer': 'adam'}",0.6178639140509795
+dt,"['max_depth', 'min_samples_split']",0.616810617231936
+nb,['var_smoothing'],0.5546661049083632
